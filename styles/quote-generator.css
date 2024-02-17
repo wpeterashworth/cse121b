@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Playfair+Display&family=Rubik+Doodle+Shadow&display=swap');
+
+/* colors:
+moonstone - #47A8BD
+mint green - #E9FFF9
+powder blue - #94B0DA
+cool gray - #8F91A2
+atomic tangerine - #F7A072 
+vermillion - #DB4C40 */
+
+header {
+    border-style: ridge;
+    border-color: #8F91A2;
+    border-width: .5em;
+}
+
+header, a{
+    color: #47A8BD;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Karla, Monteserrat, sans-serif
+}
+
+a {
+    font-size: 1em;
+}
+
+header, a:hover {
+    color: #DB4C40;
+}
+
+footer{
+    border-style: ridge;
+    border-color: #8F91A2;
+    border-width: .5em;
+    font-size: 1.25em;
+    font-family: Karla, Monteserrat, sans-serif;
+    text-align: center;
+}
+
+body {
+    overflow-x:hidden;
+    background-color: #E9FFF9
+}
+
+.heading {
+    text-align: center;
+    font-family: "Rubik Doodle Shadow", Karla, Monteserrat, sans-serif;
+    word-spacing: 10px;
+}
+
+.subheading {
+    font-family: Karla, Monteserrat, sans-serif;
+    font-size: 1.5em;
+    margin: 25px;
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+#find-quote, #reset {
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.25em;
+    font-family: Karla, Montserrat, sans-serif;
+    padding: 25px;
+  }
+
+#main {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 350px;
+}
+
+#picture {
+    display: block;
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
